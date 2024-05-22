@@ -77,7 +77,7 @@ const IconPreview = ({downloadIcon}) => {
             background: storageValue?.bgColor,
           }}
         >
-          {storageValue?.icon?.includes(".png") ? <img src={'/png/'+storageValue?.icon}
+          {storageValue?.icon?.includes(".png") ? <img src={'/api/png/'+storageValue?.icon}
            style={{
             height: storageValue?.iconSize,
             width: storageValue?.iconSize,
